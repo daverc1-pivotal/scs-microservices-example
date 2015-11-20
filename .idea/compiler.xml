@@ -23,11 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="movie-microservice" />
+        <module name="ui-search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="movie-microservice" target="1.8" />
       <module name="scs-microservices" target="1.8" />
+      <module name="ui-search" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

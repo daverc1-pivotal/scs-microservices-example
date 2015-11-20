@@ -3,16 +3,8 @@ spring:
     active: cloud
 ---
 spring:
-  profiles: cloud
-server:
-  port: 1111
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery-77.cfapps.io/eureka/
-  instance:
-    hostname: ui-search-77.cfapps.io
-    nonSecurePort: 80
-ribbon:
-  eureka:
-    enabled: true
+  application:
+    name: cdaver-searchui
+  cloud:
+    services:
+      registrationMethod: route

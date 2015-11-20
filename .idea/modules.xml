@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/movie-microservice/movie-microservice.iml" filepath="$PROJECT_DIR$/movie-microservice/movie-microservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/scs-microservices.iml" filepath="$PROJECT_DIR$/scs-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui-search/ui-search.iml" filepath="$PROJECT_DIR$/ui-search/ui-search.iml" />
     </modules>
   </component>
 </project>
