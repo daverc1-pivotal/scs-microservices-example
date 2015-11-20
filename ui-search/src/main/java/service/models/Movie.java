@@ -1,11 +1,17 @@
 package service.models;
 
+import java.sql.Timestamp;
+
 public class Movie {
     private Long id;
+    private Long released;
     private String title;
+    private String timestamp;
+    private Long video;
     private String url;
     private Genre[] genres;
     private String knownId;
+
 
     public Long getId() {
         return id;
@@ -46,4 +52,17 @@ public class Movie {
     public void setKnownId(String knownId) {
         this.knownId = knownId;
     }
+
+    public Long getReleased() { return released; }
+
+    public void setReleased(Long released) { this.released = released; }
+
+    public String getTimestamp() { return timestamp; }
+
+    public void setTimestamp(String timestamp) { this.timestamp = timestamp; }
+
+    public Long getVideo() { return video; }
+
+    public void setVideo(Long video) { this.video = video; }
+
 }

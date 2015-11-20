@@ -2,9 +2,19 @@ spring:
   profiles:
     active: cloud
 ---
+
 spring:
+  profile: cloud
   application:
     name: cdaver-searchui
   cloud:
     services:
       registrationMethod: route
+
+ribbon:
+  eureka:
+    enabled: true
+
+security:
+  basic:
+    enabled: false

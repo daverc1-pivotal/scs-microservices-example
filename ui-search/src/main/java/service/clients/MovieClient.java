@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient("movie")
+@FeignClient("https://cdaver-moviems")
 public interface MovieClient {
     @RequestMapping(
             method = RequestMethod.GET,

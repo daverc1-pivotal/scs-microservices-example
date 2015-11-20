@@ -2,21 +2,25 @@ spring:
   profiles:
     active: cloud
 ---
-spring:
-  application:
-    name: ${vcap.application.name}
-  cloud:
-    services:
-      registrationMethod: route
 
----
 spring:
   profiles: cloud
-  jpa:
-    show_sql: false
-    database: mysql
-    hibernate:
-      ddl-auto: none
+  spring:
+    application:
+      name: ${vcap.application.name}
+    cloud:
+      services:
+        registrationMethod: route
+
+jpa:
+  show_sql: false
+  database: mysql
+  hibernate:
+    ddl-auto: none
+
+ribbon:
+  eureka:
+    enabled: true
 
 security:
   basic:

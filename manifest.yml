@@ -15,7 +15,7 @@ applications:
   instances: 1
   timeout: 180
   host: cdaver-searchui
-  path: ./ui-search/target/movie-microservice-0.1.0.jar
+  path: ./ui-search/target/ui-search-0.1.0.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack
   services:
     - service-registry
