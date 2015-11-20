@@ -1,0 +1,5 @@
+service/data/domain/Genre.class
+service/Application.class
+service/data/domain/Movie.class
+service/config/ApplicationConfig.class
+service/data/repositories/MovieRepository.class

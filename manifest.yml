@@ -1,0 +1,12 @@
+---
+applications:
+- name: cdaver-moviems
+  memory: 1024M
+  instances: 1
+  timeout: 180
+  host: cdaver-moviems
+  path: ./movie-microservice/target/movie-microservice-0.1.0.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  services:
+    - mysql-cdaver
+    - service-registry
