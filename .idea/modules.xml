@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/movie-microservice/movie-microservice.iml" filepath="$PROJECT_DIR$/movie-microservice/movie-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scs-microservices.iml" filepath="$PROJECT_DIR$/scs-microservices.iml" />
+    </modules>
+  </component>
+</project>
